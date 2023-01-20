@@ -1,0 +1,457 @@
+/**************** VERSION DESKTOP *********************/
+/******************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+html,body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: sticky;
+}
+
+main {
+  margin: 0 40px 0 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*********** HEADER **********/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 20px 60px;
+  font-size: 18px;
+}
+
+#img-booki {
+  height: 50px;
+  margin-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 20px;
+}
+
+.lien-bleu {
+  padding: 62px 25px 0 25px;
+}
+
+.lien-bleu:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+
+/*********** SECTION FILTRES ********/
+
+#texteh1 {
+  margin-top: -10px;
+}
+
+#recherche {
+  display: flex;
+  margin-top: 30px;
+}
+
+#arriere-plan1 {
+  height: 50px;
+  width: 45px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0 0 15px;
+  position: absolute;
+  left: 40px;
+}
+
+#icon-local {
+  position: relative;
+  font-size: 20px;
+  left: 17px;
+  top: 15px;
+}
+
+#barre-recherche {
+  height: 45px;
+  width: 220px;
+  font-weight: bold;
+  font-family: "Raleway";
+  font-size: 20px;
+  border: 1px #f2f2f2 solid;
+  margin-left: 45px;
+  padding-left: 15px;
+}
+
+#bouton-recherche {
+  height: 49px;
+  width: 140px;
+  background-color: #0065fc;
+  color: white;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  margin-left: -8px;
+}
+
+#bouton-loupe {
+  background-color: #0065fc;
+  color: white;
+  width: 50px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  display: none;
+}
+
+#filtres {
+  display: flex;
+  margin-top: 40px;
+  font-weight: bold;
+  align-items: center;
+  font-size: 19px;
+}
+
+#filtres p {
+  margin-right: 15px;
+}
+
+#ensemble-filtres {
+  width: 100%;
+  display: flex;
+}
+
+#ensemble-filtres p {
+  margin: 0 15px;
+}
+
+.bouton-filtres {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  border: 2px #f2f2f2 solid;
+  border-radius: 35px;
+}
+
+.alignement-liens {
+  display: flex;
+  align-items: center;
+}
+
+.alignement-liens:hover {
+  color: #0065fc;
+  font-style: italic;
+  font-size: 17px;
+  border: 1px solid #8eb9f8;
+  box-shadow: 6px 6px 6px #f2f2f2;
+  border-radius: 35px;
+}
+
+.icon-img {
+  background-color: #deebff;
+  color: #0065fc;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#billet {
+  position: relative;
+  left: 14px;
+  top: 15px;
+}
+
+#enfant {
+  position: relative;
+  left: 15px;
+  top: 12px;
+  font-size: 25px;
+}
+
+#coeur {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+#animaux {
+  position: relative;
+  left: 15px;
+  top: 14px;
+}
+
+#texte-nbre-logement {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 25px 0;
+  font-size: 17px;
+}
+
+.fa-info-circle {
+  color: #0065fc;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+/********* SECTION HEBERGEMENT *******/
+
+#section-hebergement {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+#section-hebergement h3 {
+  font-size: 18px;
+}
+
+#hebergement-marseille {
+  width: 66%;
+  margin-right: 30px;
+}
+
+.arriere-plan {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.margesh2 {
+  margin-left: 15px;
+}
+
+#groupe-cartes1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 30px 15px;
+}
+
+.cartes {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px grey;
+  width: 31%;
+}
+
+.redim1-photos {
+  box-sizing: border-box;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  padding: 5px 5px 0 5px;
+}
+
+.descript-carte {
+  height: 40%;
+  margin-left: 15px;
+  padding-bottom: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descript-carte h3 {
+  margin-top: 2px;
+  margin-bottom: 8px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.descript-carte p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.notation-etoiles {
+  display: flex;
+}
+
+.etoile-bleue {
+  color: #0065fc;
+  margin-right: 4px;
+  font-size: 13px;
+}
+
+.etoile-grise {
+  color: #c7c0c0;
+  font-size: 13px;
+}
+
+#groupe-cartes2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 50px 15px;
+}
+
+#affiche-plus {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+/******** ASIDE POPULAIRES *******/
+
+#aside-populaires {
+  width: 33%;
+}
+
+#titre-populaires {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.5%;
+}
+
+#titre-populaires i {
+  font-size: 20px;
+}
+
+.cartes-pop {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px grey;
+  display: flex;
+  margin-bottom: 30px;
+  height: 160px;
+}
+
+.redim2-photos {
+  height: 93%;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+  padding: 5px;
+}
+
+#groupe-cartes-pop {
+  margin: 0 15px 0 15px;
+}
+
+.descript-carte-pop {
+  margin: 5px 15px 0 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: auto;
+}
+
+.descript-carte-pop h3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.descript-carte-pop p {
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+/********* SECTION ACTIVITES *********/
+
+#groupe-carte-act {
+  display: flex;
+}
+
+#groupe-carte-act p {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#groupe1-carte {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-right: 35px;
+}
+
+.carte-grande {
+  width: 50%;
+  margin-right: 35px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.redim3-photos {
+  width: 100%;
+  height: 86%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.carte-reduite {
+  width: 50%;
+}
+
+.arriere-plan-blanc {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.redim4-photos {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+#carte-pomegues {
+  height: 45%;
+  margin-bottom: 50px;
+}
+
+#carte-frioul {
+  height: 45%;
+}
+
+#groupe2-carte {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+#carte-dame-garde {
+  height: 45%;
+  margin-bottom: 50px;
+}
+
+#carte-longchamp {
+  height: 45%;
+}
+
+/************* FOOTER ***********/
+
+footer {
+  background-color: #f2f2f2;
+  margin: 70px 0 0 0;
+  font-size: 18px;
+}
+
+.disposition-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 320px 20px 30px;
+}
+
+.titre-foot {
+  font-weight: bold;
+  font-size: 20px;
+}

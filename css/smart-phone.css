@@ -1,0 +1,239 @@
+/**************** VERSION SMART-PHONE *****************/
+/******************************************************/
+
+@media screen and (max-width: 768px) {
+  main {
+    margin: 0;
+  }
+
+  /************ HEADER ***********/
+
+  header {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+  }
+
+  nav {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  li {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .lien-bleu {
+    display: block;
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+
+  .lien-bleu:hover {
+    border-top: none;
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+  }
+
+  /******* SECTION FILTRES ********/
+
+  #section-filtres {
+    margin: 25px 15px 0 15px;
+  }
+
+  #arriere-plan1 {
+    position: relative;
+    top: 20px;
+    left: 5px;
+  }
+
+  #barre-recherche {
+    width: 211px;
+    position: relative;
+    left: 4px;
+    top: -29px;
+  }
+
+  #bouton-recherche {
+    display: none;
+  }
+
+  #bouton-loupe {
+    display: unset;
+    position: relative;
+    top: -31px;
+    left: -10px;
+    height: 48px;
+  }
+
+  #filtres {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+
+  #ensemble-filtres {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .bouton-filtres {
+    margin: 0 10px 10px 0;
+  }
+
+  #texte-nbre-logement {
+    margin-top: 0;
+  }
+
+  /********* SECTION HEBERGEMENT ********/
+
+  #section-hebergement {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #hebergement-marseille {
+    width: auto;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+  }
+
+  .margesh2 {
+    margin-left: 0;
+  }
+
+  #groupe-cartes1 {
+    flex-direction: column;
+    margin: 0 0 10px 0;
+  }
+
+  .cartes {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .descript-carte {
+    padding-bottom: 1.5%;
+  }
+
+  #groupe-cartes2 {
+    flex-direction: column;
+    margin: 0 0 30px 0;
+  }
+
+  #affiche-plus {
+    margin: 10px 0;
+  }
+
+  /******** SECTION ASIDE POPULAIRES ******/
+
+  #aside-populaires {
+    width: auto;
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #titre-populaires {
+    padding: 0;
+  }
+
+  #groupe-cartes-pop {
+    margin: 0;
+  }
+
+  .cartes-pop {
+    margin-bottom: 15px;
+  }
+
+  .descript-carte-pop {
+    padding: 0 30px 10px 7px;
+  }
+
+  .redim2-photos {
+    width: 140px;
+  }
+
+  /****** SECTION ACTIVITES *******/
+
+  #section-activites {
+    margin: 0 15px 0 15px;
+  }
+
+  #groupe-carte-act {
+    flex-direction: column;
+  }
+
+  #groupe1-carte {
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    margin-right: 0;
+  }
+
+  .carte-grande {
+    width: 100%;
+    height: 180px;
+    margin-right: 0;
+  }
+
+  .redim3-photos {
+    height: 70%;
+  }
+
+  .carte-reduite {
+    width: 100%;
+  }
+
+  #carte-pomegues {
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #carte-frioul {
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  #groupe2-carte {
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+  }
+
+  #carte-dame-garde {
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #carte-longchamp {
+    height: 180px;
+  }
+
+  /************ FOOTER ***********/
+
+  footer {
+    margin-top: 40px;
+  }
+
+  .disposition-footer {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+  }
+}

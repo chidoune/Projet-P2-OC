@@ -1,0 +1,124 @@
+/**************** VERSION TABLETTE *****************/
+/******************************************************/
+
+@media screen and (min-width:769px) and (max-width:991px)
+{
+
+/********* SECTION FILTRES **********/
+
+#filtres {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#ensemble-filtres {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.bouton-filtres {
+    margin: 0 20px 15px 0;
+}
+
+#bouton-loupe {
+    display: none;
+}
+
+#texte-nbre-logement {
+    margin-top: 15px;
+}
+
+/******* SECTION HEBERGEMENT ********/
+
+#section-hebergement {
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+}
+
+#hebergement-marseille {
+    width: auto;
+    margin: 30px 0 30px 0;
+}
+
+/******* ASIDE POPULAIRES ******/
+
+#aside-populaires {
+    width: auto;
+    height: 450px;
+}
+
+#groupe-cartes-pop {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+}
+
+#groupe-cartes-pop a {
+    flex: 1 1 0;
+}
+
+.cartes-pop {
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    margin: 0 15px;
+}
+
+.redim2-photos {
+    width: 95%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.descript-carte-pop {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 120px;
+}
+
+.descript-carte-pop p {
+    margin-bottom: auto;
+}
+
+#affiche-plus {
+    margin: 25px 0 25px 15px;
+}
+
+/********** SECTION ACTIVITES *******/
+
+#groupe1-carte {
+    margin-right: 15px;
+}
+
+.carte-grande {
+    margin-right: 15px;
+}
+
+#carte-pomegues {
+    margin-bottom: 15px;
+    height: 48.5%;
+}
+
+#carte-frioul {
+    height: 48.5%;
+}
+
+#carte-dame-garde {
+    margin-bottom: 15px;
+    height: 48.5%;
+}
+
+#carte-longchamp {
+    height: 48.5%;
+}
+
+/************ FOOTER *************/
+
+.disposition-footer {
+    padding-right: 30px;
+}
+}
